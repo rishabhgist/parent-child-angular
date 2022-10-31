@@ -12,5 +12,14 @@
     </div>
     <hr>
     <h3>Parent to Child Component Using Angular</h3>
-   
+    <div class="main">
+        <div class="parent">
+            <p>What will be the square root?</p>
+            <input type="text" >
+        </div>
+        <div class="child">
+            <h4>Child</h4>
+            <app-child (key2)="fun2($event)"></app-child>
+        </div>
+    </div>
 </div>
