@@ -13,7 +13,7 @@ export class ChildComponent implements OnInit {
   key2 = new EventEmitter<string>();
 
   fun1() {
-    this.key2.emit('Hey There');
+    this.key2.emit('Hey Parent!!');
   }
   constructor() { }
 

@@ -7,3 +7,10 @@
 .container h3{
     text-align: center;
 }
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.parent{
+    width: ;
+}

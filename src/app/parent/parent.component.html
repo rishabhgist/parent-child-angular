@@ -1,10 +1,13 @@
 <div class="container">
-    <h3>Parent Child Component Using Angular</h3>
-    <div class="parent">
-        <p>parent works!</p>
-    </div>
-    <div class="child">
-        <app-child (key2)="fun2($event)"></app-child>
-        <p>{{data}}</p>
+    <h3>Child Parent Component Using Angular</h3>
+    <div class="main">
+        <div class="child">
+            <h4>Child</h4>
+            <app-child (key2)="fun2($event)"></app-child>
+        </div>
+        <div class="parent">
+            <h4>Parent</h4>
+            <p>{{data}}</p>
+        </div>
     </div>
 </div>
