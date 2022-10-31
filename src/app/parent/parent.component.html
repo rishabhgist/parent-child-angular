@@ -15,11 +15,11 @@
     <div class="main">
         <div class="parent">
             <p>What will be the square root?</p>
-            <input type="text" >
+            <input type="text" [(ngModel)] = "value">
         </div>
         <div class="child">
             <h4>Child</h4>
-            <app-child (key2)="fun2($event)"></app-child>
+            <app-child (key2)="value"></app-child>
         </div>
     </div>
 </div>

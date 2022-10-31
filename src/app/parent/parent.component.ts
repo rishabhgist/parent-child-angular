@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
   data: string = '';
+  value: number = 0;
+  
   fun2(childData: any) {
     this.data = childData;
   }
