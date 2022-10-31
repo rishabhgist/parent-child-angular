@@ -2,7 +2,8 @@
     <div class="parent">
         <p>parent works!</p>
     </div>
-    
+    <div class="child">
+        <app-child (key2)="fun2($event)"></app-child>
+        <p>{{data}}</p>
+    </div>
 </div>
-<app-child (key2)="fun2($event)"></app-child>
-<p>{{data}}</p>
